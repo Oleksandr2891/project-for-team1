@@ -78,7 +78,11 @@ body {
   --color-bg-menu: rgba(254, 243, 228, 0.9);
   /*------ TEXT -------*/
   --main-font: Montserrat, sans-serif;
+<<<<<<< Updated upstream
   --title-font: Caveat Brush, sans-serif;
+=======
+  --title-font: Caveat Brush, cursive;
+>>>>>>> Stashed changes
 }
 
 .visually-hidden {
