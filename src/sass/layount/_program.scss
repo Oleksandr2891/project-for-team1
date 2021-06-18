@@ -9,10 +9,18 @@
   margin-bottom: 10px;
 }
 
-.program__link-read {
-  display: block;
+.program__btn-read-more {
   margin-bottom: 37px;
 }
+
+.program__text-read-more {
+  display: none;
+}
+
+// .program__link-read {
+//   display: block;
+
+// }
 
 .program__list-greed {
   display: flex;
