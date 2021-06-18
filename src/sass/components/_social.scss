@@ -1,7 +1,7 @@
 .social-icon__twitter {
   width: 19px;
   height: 15px;
-  fill: #2e2520;
+  fill: var(--color-main);
 
   @media screen and (min-width: 1200px) {
     width: 24px;
@@ -12,7 +12,7 @@
 .social-icon__instagram {
   width: 15px;
   height: 15px;
-  fill: #2e2520;
+  fill: var(--color-main);
 
   @media screen and (min-width: 1200px) {
     width: 24px;
@@ -23,7 +23,7 @@
 .social-icon__facebook {
   width: 8px;
   height: 15px;
-  fill: #2e2520;
+  fill: var(--color-main);
 
   @media screen and (min-width: 1200px) {
     width: 24px;
