@@ -12,7 +12,7 @@ body {
 
 @media screen and (min-width: 450px) {
   .hero {
-    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../img/hero/header_img_tablet.jpg');
+    background-image: url('../images/bg-mobile/bg-top.svg'),
+      url('../images/bg-mobile/bg-bottom.svg');
   }
 }
