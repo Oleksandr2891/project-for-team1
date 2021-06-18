@@ -1,0 +1,40 @@
+.menu-desktop {
+  display: none;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    &__tel {
+      display: none;
+    }
+
+    &__modal-btn {
+      display: none;
+    }
+
+    &__mobile-btn {
+      padding: 0;
+      border: none;
+      background-color: transparent;
+    }
+
+    &__burger-icon {
+      width: 40px;
+      height: 40px;
+      fill: #ffffff;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    &__mobile-btn {
+      display: none;
+    }
+  }
+}
