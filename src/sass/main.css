@@ -39,6 +39,24 @@ img {
   text-decoration: none;
 }
 
+.title {
+  font-family: Caveat Brush;
+}
+
+@media screen and (max-width: 1279px) {
+  .title {
+    font-size: 24px;
+    line-height: 2.7;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .title {
+    font-size: 36px;
+    line-height: 1.8;
+  }
+}
+
 .container {
   width: 100%;
   padding-left: 15px;
@@ -93,5 +111,72 @@ body {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+.social-icon__twitter {
+  width: 19px;
+  height: 15px;
+  fill: var(--color-main);
+}
+
+@media screen and (min-width: 1200px) {
+  .social-icon__twitter {
+    width: 24px;
+    height: 19px;
+  }
+}
+
+.social-icon__instagram {
+  width: 15px;
+  height: 15px;
+  fill: var(--color-main);
+}
+
+@media screen and (min-width: 1200px) {
+  .social-icon__instagram {
+    width: 24px;
+    height: 19px;
+  }
+}
+
+.social-icon__facebook {
+  width: 8px;
+  height: 15px;
+  fill: var(--color-main);
+}
+
+@media screen and (min-width: 1200px) {
+  .social-icon__facebook {
+    width: 24px;
+    height: 19px;
+  }
+}
+
+.button {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: 145px;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  font-family: Caveat Brush;
+  border-radius: 25px;
+  border-color: transparent;
+  color: #ffffff;
+  background-color: var(--color-button);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  .button {
+    width: 158px;
+    font-size: 24px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+  }
+}
+
+.button:hover, .button:focus, .button:active {
+  background-color: var(--color-accent-brown);
 }
 /*# sourceMappingURL=main.css.map */
