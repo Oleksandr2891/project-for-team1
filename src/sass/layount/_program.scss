@@ -1,3 +1,146 @@
+.program__title-wraper {
+  text-align: center;
+}
 .program__paragraph {
   margin-bottom: 10px;
+}
+
+.program__list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.program__link-read {
+  display: block;
+  margin-bottom: 37px;
+}
+
+.program__list-greed {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bg-img-donut-black::before {
+  content: '';
+  position: absolute;
+  top: calc(-25%);
+
+  min-width: 76px;
+  min-height: 84px;
+  background-image: url('../images/program-mobile/png/program1.png');
+}
+
+.bg-img-donut-white::before {
+  content: '';
+  position: absolute;
+  top: calc(-25%);
+  min-width: 64px;
+  min-height: 71px;
+  background-image: url('../images/program-mobile/png/program2.png');
+}
+
+.bg-img-donut-grey::before {
+  content: '';
+  position: absolute;
+  top: calc(-25%);
+  min-width: 69px;
+  min-height: 76px;
+  background-image: url('../images/program-mobile/png/program3.png');
+}
+
+.bg-img-donut-brown::before {
+  content: '';
+  position: absolute;
+  top: calc(-25%);
+  min-width: 65px;
+  min-height: 72px;
+  background-image: url('../images/program-mobile/png/program4.png');
+}
+
+// .program__list-greed-item::before {
+//   content: '';
+//   position: absolute;
+//   min-width: 64px;
+//   min-height: 71px;
+// }
+
+.program__list-greed-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+
+  flex-basis: calc((100% - 6px) / 2);
+  border-radius: 50%;
+  min-height: 142px;
+
+  background-color: #fef3e4;
+  box-shadow: 0px 4px 4px rgba(171, 129, 108, 0.25);
+}
+
+.program__list-greed-item:not(:nth-child(2n)) {
+  margin-right: 6px;
+  margin-bottom: 66px;
+}
+
+.program__list-greed-item:nth-child(2n) {
+  margin-top: 66px;
+}
+
+.program__list-greed-item-wraper {
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.program__list-greed-item-title {
+  margin-bottom: 13px;
+
+  font-family: Caveat Brush;
+  font-size: 18px;
+  line-height: 1.27;
+}
+
+.program__list-greed-item-paragraph {
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--color-accent-dark);
+}
+
+.paragraph-icon-hat {
+  margin-bottom: 15px;
+}
+
+.paragraph-icon-people {
+  margin-bottom: 13px;
+}
+
+.paragraph-icon-clock {
+  margin-bottom: 12px;
+}
+
+.paragraph-icon-chat {
+  margin-bottom: 15px;
+}
+
+.program__list-greed-item-icon-hat {
+  width: 19px;
+  height: 18px;
+}
+
+.program__list-greed-item-icon-people {
+  width: 20px;
+  height: 18px;
+}
+
+.program__list-greed-item-icon-clock {
+  width: 19px;
+  height: 19px;
+}
+
+.program__list-greed-item-icon-chat {
+  width: 24px;
+  height: 16px;
 }
