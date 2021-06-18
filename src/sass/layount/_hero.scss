@@ -10,7 +10,7 @@
   line-height: 1.26;
   text-align: center;
   &__position {
-    padding-bottom: 4px;
+    margin-bottom: 4px;
   }
 }
 .hero-text {
@@ -19,6 +19,16 @@
   line-height: 1.25;
   text-align: center;
   &__position {
-    padding-bottom: 38px;
+    margin-bottom: 38px;
   }
+}
+.button-position {
+  margin-bottom: 50px;
+}
+.hero-social__list {
+  display: flex;
+}
+
+.hero-social__item:not(:last-child) {
+  margin-right: 10px;
 }
