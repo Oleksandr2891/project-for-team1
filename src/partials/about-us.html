@@ -1,6 +1,21 @@
 <div class="container">
     <picture class="picture">
-        <img src="" alt="">
+        <source
+            srcset="./images/about-desktop/webp/box.webp 1x, ./images/about-desktop/webp/box@2x.webp 2x"
+            media="(min-width: 1280px)" type="image/webp">
+        <source srcset="./images/about-desktop/png/box.png 1x, ./images/about-desktop/png/box@2x.png 2x"
+            media="(min-width: 1280px)">
+
+        <source srcset="./images/about-tablet/webp/box.webp 1x, ./images/about-tablet/webp/box@2x.webp 2x"
+           media="(min-width: 768px)" type="image/webp">
+        <source srcset="./images/about-tablet/png/box.png 1x, ./images/about-tablet/png/box@2x.png 2x"
+           media="(min-width: 768px)">
+
+        <source srcset="./images/about-mobile/webp/box.webp 1x, ./images/about-mobile/webp/box@2x.webp 2x" media="(min-width: 320px)"
+             type="image/webp">
+        <source srcset="./images/about-mobile/png/box.png 1x, ./images/about-mobile/png/box@2x.png 2x" media="(min-width: 320px)">
+        
+        <img src="./images/about-desktop/png/box.png" alt="box">
     </picture>
     <h2 class="aboutus-title">About us</h2>
     <p class="aboutus-text">
