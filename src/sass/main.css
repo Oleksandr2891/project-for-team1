@@ -1,0 +1,97 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-text);
+  font-family: var(--main-font);
+}
+
+:root {
+  /* ------ COLORS -------- */
+  --color-main: #2e2520;
+  --color-accent-dark: #000000;
+  --color-accent-brown: #876655;
+  --color-font-button: #ffffff;
+  --color-back-ground: #e5e5e5;
+  --color-button: #ab816c;
+  --color-bg-menu: rgba(254, 243, 228, 0.9);
+  /*------ TEXT -------*/
+  --main-font: Montserrat, sans-serif;
+  --title-font: Caveat Brush, cursive;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+/*# sourceMappingURL=main.css.map */

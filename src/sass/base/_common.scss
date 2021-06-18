@@ -36,3 +36,16 @@ img {
 .link {
   text-decoration: none;
 }
+
+// для  всех  h2 на сайте
+.title {
+  @media screen and (max-width: 1279px) {
+    font-size: 24px;
+    line-height: 2.7;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 36px;
+    line-height: 1.8;
+  }
+  font-family: Caveat Brush;
+}
