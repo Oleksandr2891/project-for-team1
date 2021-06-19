@@ -1,40 +1,42 @@
 .menu-desktop {
   display: none;
 }
+
 .nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  position: relative;
+  height: 50px;
+  margin-bottom: 33px;
+}
+
+.logo__nav--position {
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 @media screen and (max-width: 767px) {
-  .header {
-    &__tel {
-      display: none;
-    }
+  .menu-desktop {
+    display: none;
+  }
 
-    &__modal-btn {
-      display: none;
-    }
+  .button__nav {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    transform: translate(-50%, 0);
+  }
 
-    &__mobile-btn {
-      padding: 0;
-      border: none;
-      background-color: transparent;
-    }
-
-    &__burger-icon {
-      width: 40px;
-      height: 40px;
-      fill: #ffffff;
-    }
+  .icon-open {
+    fill: var(--color-main);
   }
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    &__mobile-btn {
-      display: none;
-    }
+  .button__nav {
+    display: none;
   }
 }
