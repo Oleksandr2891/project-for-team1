@@ -1,11 +1,19 @@
 <form action="#" class="contact container">
   <h2 class="contact__head">Contact</h2>
-  <p>We will answer any question!</p>
-  <input type="email" name="user-email" class="contact-form__input" placeholder="email" required />
+
+  <p class="contect__text">We will answer any question!</p>
+  <input
+    type="email"
+    name="user-email"
+    class="contact-form__input contact-input__position"
+    placeholder="Email"
+    required
+  />
   <textarea
     name="user-message"
-    class="contact-form__message"
+    class="contact-form__message contact-message__position"
     placeholder="Type your question"
   ></textarea>
-  <button type="submit" class="contact__btn">Send</button>
+
+  <button type="submit" class="button contact__btn">Send</button>
 </form>
