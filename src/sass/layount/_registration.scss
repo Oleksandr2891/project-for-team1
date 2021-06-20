@@ -59,6 +59,8 @@
 }
 .registration__form {
   text-align: center;
+  padding-left: 12px;
+  padding-right: 13px;
   &::before {
     content: '';
     display: block;
@@ -81,7 +83,7 @@
 .reg-form__input {
   display: block;
   margin: 0 auto 25px auto;
-  width: 265px;
+  width: 100%;
   font-size: 16px;
   line-height: 1.25;
   color: var(--color-main);
