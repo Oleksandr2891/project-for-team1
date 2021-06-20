@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199.98px) {
   .menu-mobile {
     position: fixed;
     top: 0;
@@ -33,6 +33,11 @@
     background-color: transparent;
     border: none;
     padding: 0;
+
+    &:hover,
+    &:focus {
+      fill: var(--color-accent-brown);
+    }
   }
 
   .is-open {
@@ -40,8 +45,8 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .mobile-menu {
+@media screen and (min-width: 1200px) {
+  .menu-mobile {
     display: none;
   }
 }
