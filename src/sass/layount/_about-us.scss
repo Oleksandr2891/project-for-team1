@@ -4,6 +4,10 @@
   line-height: 2.71;
   text-align: center;
   color: var(--color-main);
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
 }
 .aboutus__text {
   font-family: var(--main-font);
@@ -14,4 +18,15 @@
 }
 .aboutus__btn-read-more {
   text-align: start;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutus__container {
+    display: flex;
+    width: 690px;
+  }
+  .aboutus__content {
+    margin-left: 25px;
+    width: 336px;
+  }
 }
