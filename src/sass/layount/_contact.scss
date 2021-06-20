@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 19px;
 }
 .contact__head {
   font-family: var(--title-font);
@@ -26,9 +27,10 @@
   outline: none;
 
   &::placeholder {
+    height: 22px;
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     color: rgba(171, 129, 108, 0.5);
   }
 }
@@ -51,4 +53,35 @@
 }
 .contact-message__position {
   margin-bottom: 30px;
+}
+.social-list__wrapper {
+  display: flex;
+  margin-top: 47px;
+  margin-bottom: 34px;
+}
+.social-list {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-list__twitter {
+  margin-right: 8px;
+}
+.social-list__instagram {
+  margin-right: 10px;
+}
+.address {
+  display: flex;
+  justify-content: space-between;
+  font-family: Montserrat;
+  font-style: normal;
+  &__link {
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--color-main);
+  }
+  &__icon {
+    margin-right: 3px;
+  }
 }
