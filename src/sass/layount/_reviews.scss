@@ -1,0 +1,44 @@
+.reviews__wrapper {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 47px;
+}
+.reviews__title {
+  font-family: var(--title-font);
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+
+  color: var(--color-main);
+
+  margin-bottom: 14px;
+}
+.reviews__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6px;
+
+  border-radius: 50%;
+}
+.rate__icon {
+  margin-bottom: 9px;
+}
+.reviews__name {
+  margin-bottom: 9px;
+
+  font-family: var(--main-font);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+
+  text-align: center;
+
+  color: var(--color-main);
+}
+
+.reviews__item_elisabeth,
+.reviews__item_john {
+  display: none;
+}
