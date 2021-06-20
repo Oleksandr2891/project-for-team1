@@ -4,14 +4,32 @@
   line-height: 2.71;
   text-align: center;
   color: var(--color-main);
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
 }
 .aboutus__text {
   font-family: var(--main-font);
   font-size: 16px;
+  font-size: 12px;
   line-height: 1.25;
 
   color: #2e2520;
 }
 .aboutus__btn-read-more {
   text-align: start;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutus__container {
+    display: flex;
+    width: 690px;
+    height: 358px;
+  }
+  .aboutus__content {
+    margin-left: 25px;
+    width: 336px;
+    height: 358px;
+  }
 }
