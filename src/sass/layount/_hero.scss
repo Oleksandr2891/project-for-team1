@@ -2,6 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media screen and (min-width: 768px) {
+    align-items: flex-start;
+    padding-left: 68px;
+    padding-bottom: 80px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-left: 230px;
+    padding-bottom: 80px;
+  }
 }
 .hero-title {
   font-family: var(--title-font);
@@ -11,6 +20,17 @@
   text-align: center;
   &__position {
     margin-bottom: 4px;
+
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 15px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 64px;
+    line-height: 1.01;
   }
 }
 .hero-text {
@@ -21,9 +41,22 @@
   &__position {
     margin-bottom: 38px;
   }
+  @media screen and (min-width: 1280px) {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 26px;
+  }
 }
 .button-position {
   margin-bottom: 50px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 65px;
+  }
 }
 .hero-social__list {
   display: flex;
