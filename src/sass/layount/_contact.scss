@@ -36,6 +36,10 @@
 }
 .contact-input__position {
   margin-bottom: 25px;
+
+  @media screen and (min-width: 768px) {
+    width: 410px;
+  }
 }
 .contact-form__message {
   width: 100%;
@@ -53,6 +57,10 @@
 }
 .contact-message__position {
   margin-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    width: 410px;
+  }
 }
 .social-list__wrapper {
   display: flex;
