@@ -1,6 +1,30 @@
-.program__title-wraper {
-  text-align: center;
+// @media screen and (min-width: 768px) {
+//   .program__item {
+// flex-basis: calc((100% - 38px) / 2);
+//     &:not(:last-child) {
+//       margin-right: 38px;
+//     }
+//   }
+// }
+@media screen and (min-width: 768px) {
+  .program__left-part {
+    max-width: 300px;
+    margin-right: 38px;
+  }
 }
+
+@media screen and (min-width: 768px) {
+  .program__container {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .program__title-wraper {
+    text-align: center;
+  }
+}
+
 .program__paragraph {
   margin-bottom: 10px;
 }
@@ -37,6 +61,45 @@
   background-image: url('../images/program-mobile/png/program1.png');
 }
 
+// @media screen and (max-width: 767px) {
+//   .bg-img-donut-black::before {
+
+//   }
+// }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .bg-img-donut-black::before {
+    background-image: url('../images/program-tablet/png/program1.png');
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .bg-img-donut-black::before {
+    background-image: url('../images/program-desktop/png/program1.png');
+  }
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  @media screen and (max-width: 767px) {
+    .bg-img-donut-black::before {
+      background-image: url('../images/program-mobile/png/program1@2x.png');
+      background-size: contain;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .bg-img-donut-black::before {
+      background-image: url('../images/program-tablet/png/program1@2x.png');
+      background-size: contain;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .bg-img-donut-black::before {
+      background-image: url('../images/program-desktop/png/program1@2x.png');
+      background-size: contain;
+    }
+  }
+}
+
 .bg-img-donut-white::before {
   content: '';
   position: absolute;
@@ -44,6 +107,45 @@
   min-width: 64px;
   min-height: 71px;
   background-image: url('../images/program-mobile/png/program2.png');
+}
+// @media screen and (max-width: 768px) {
+//   .bg-img-donut-white::before {
+//     background-image: url('../images/program-mobile/png/program2.png');
+//     background-size: contain;
+//   }
+// }
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .bg-img-donut-white::before {
+    background-image: url('../images/program-tablet/png/program2.png');
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .bg-img-donut-white::before {
+    background-image: url('../images/program-desktop/png/program2.png');
+  }
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  @media screen and (max-width: 767px) {
+    .bg-img-donut-white::before {
+      background-image: url('../images/program-mobile/png/program2@2x.png');
+      background-size: contain;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .bg-img-donut-white::before {
+      background-image: url('../images/program-tablet/png/program2@2x.png');
+      background-size: contain;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .bg-img-donut-white::before {
+      background-image: url('../images/program-desktop/png/program2@2x.png');
+      background-size: contain;
+    }
+  }
 }
 
 .bg-img-donut-grey::before {
@@ -55,6 +157,39 @@
   background-image: url('../images/program-mobile/png/program3.png');
 }
 
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .bg-img-donut-grey::before {
+    background-image: url('../images/program-tablet/png/program3.png');
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .bg-img-donut-grey::before {
+    background-image: url('../images/program-desktop/png/program3.png');
+  }
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  @media screen and (max-width: 767px) {
+    .bg-img-donut-grey::before {
+      background-image: url('../images/program-mobile/png/program3@2x.png');
+      background-size: contain;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .bg-img-donut-grey::before {
+      background-image: url('../images/program-tablet/png/program3@2x.png');
+      background-size: contain;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .bg-img-donut-grey::before {
+      background-image: url('../images/program-desktop/png/program3@2x.png');
+      background-size: contain;
+    }
+  }
+}
+
 .bg-img-donut-brown::before {
   content: '';
   position: absolute;
@@ -62,6 +197,39 @@
   min-width: 65px;
   min-height: 72px;
   background-image: url('../images/program-mobile/png/program4.png');
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .bg-img-donut-brown::before {
+    background-image: url('../images/program-tablet/png/program4.png');
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .bg-img-donut-brown::before {
+    background-image: url('../images/program-desktop/png/program4.png');
+  }
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  @media screen and (max-width: 767px) {
+    .bg-img-donut-brown::before {
+      background-image: url('../images/program-mobile/png/program4@2x.png');
+      background-size: contain;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    .bg-img-donut-brown::before {
+      background-image: url('../images/program-tablet/png/program4@2x.png');
+      background-size: contain;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .bg-img-donut-brown::before {
+      background-image: url('../images/program-desktop/png/program4@2x.png');
+      background-size: contain;
+    }
+  }
 }
 
 // .program__list-greed-item::before {
@@ -78,17 +246,34 @@
   align-items: center;
   position: relative;
 
-  flex-basis: calc((100% - 6px) / 2);
+  flex-basis: calc((100% - 15px) / 2);
   border-radius: 50%;
   min-height: 142px;
+
+  //   @media screen and (min-width: 768px) {
+  //     & {
+  //       flex-basis: calc((100% - 66px) / 2);
+  //     }
+  //   }
 
   background-color: #fef3e4;
   box-shadow: 0px 4px 4px rgba(171, 129, 108, 0.25);
 }
+// @media screen and (min-width: 768px) {
+//   .program__list-greed-item {
+//     min-height: 142px;
+//   }
+// }
 
 .program__list-greed-item:not(:nth-child(2n)) {
   margin-right: 6px;
   margin-bottom: 66px;
+
+  @media screen and (min-width: 768px) {
+    & {
+      margin-right: 15px;
+    }
+  }
 }
 
 .program__list-greed-item:nth-child(2n) {
