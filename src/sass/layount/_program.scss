@@ -1,3 +1,7 @@
+.program__section {
+  padding-top: 30px;
+}
+
 // @media screen and (min-width: 768px) {
 //   .program__item {
 // flex-basis: calc((100% - 38px) / 2);
@@ -8,14 +12,17 @@
 // }
 @media screen and (min-width: 768px) {
   .program__left-part {
-    max-width: 300px;
+    // max-width: 300px;
     margin-right: 38px;
+    // min-height: 382px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .program__container {
     display: flex;
+    justify-content: space-between;
+    // max-width: 667px;
   }
 }
 
@@ -27,14 +34,17 @@
 
 .program__paragraph {
   margin-bottom: 10px;
+  max-width: 300px;
 }
 
 .program__list-item:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.program__btn-read-more {
-  margin-bottom: 37px;
+@media screen and (max-width: 767px) {
+  .program__btn-read-more {
+    margin-bottom: 37px;
+  }
 }
 
 .program__text-read-more {
@@ -49,6 +59,13 @@
 .program__list-greed {
   display: flex;
   flex-wrap: wrap;
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .program__list-greed {
+    padding-top: 34px;
+  }
 }
 
 .bg-img-donut-black::before {
