@@ -10,13 +10,13 @@
 //     }
 //   }
 // }
-@media screen and (min-width: 768px) {
-  .program__left-part {
-    // max-width: 300px;
-    margin-right: 38px;
-    // min-height: 382px;
-  }
-}
+// @media screen and (min-width: 768px) {
+//   .program__left-part {
+// max-width: 300px;
+// margin-right: 38px;
+// min-height: 382px;
+//   }
+// }
 
 @media screen and (min-width: 768px) {
   .program__container {
@@ -68,10 +68,14 @@
   }
 }
 
+.bg-img-donut-black {
+  margin-bottom: 56px;
+}
+
 .bg-img-donut-black::before {
   content: '';
   position: absolute;
-  top: calc(-25%);
+  top: calc(-21%);
 
   min-width: 76px;
   min-height: 84px;
@@ -117,10 +121,14 @@
   }
 }
 
+.bg-img-donut-white {
+  margin-top: 25px;
+}
+
 .bg-img-donut-white::before {
   content: '';
   position: absolute;
-  top: calc(-25%);
+  top: calc(-21%);
   min-width: 64px;
   min-height: 71px;
   background-image: url('../images/program-mobile/png/program2.png');
@@ -165,10 +173,14 @@
   }
 }
 
+.bg-img-donut-grey {
+  margin-bottom: 30px;
+}
+
 .bg-img-donut-grey::before {
   content: '';
   position: absolute;
-  top: calc(-25%);
+  top: calc(-21%);
   min-width: 69px;
   min-height: 76px;
   background-image: url('../images/program-mobile/png/program3.png');
@@ -207,10 +219,14 @@
   }
 }
 
+.bg-img-donut-brown {
+  margin-top: 25px;
+}
+
 .bg-img-donut-brown::before {
   content: '';
   position: absolute;
-  top: calc(-25%);
+  top: calc(-21%);
   min-width: 65px;
   min-height: 72px;
   background-image: url('../images/program-mobile/png/program4.png');
@@ -265,7 +281,7 @@
 
   flex-basis: calc((100% - 15px) / 2);
   border-radius: 50%;
-  min-height: 142px;
+  height: 142px;
 
   //   @media screen and (min-width: 768px) {
   //     & {
@@ -276,15 +292,10 @@
   background-color: #fef3e4;
   box-shadow: 0px 4px 4px rgba(171, 129, 108, 0.25);
 }
-// @media screen and (min-width: 768px) {
-//   .program__list-greed-item {
-//     min-height: 142px;
-//   }
-// }
 
 .program__list-greed-item:not(:nth-child(2n)) {
   margin-right: 6px;
-  margin-bottom: 66px;
+  //   margin-bottom: 66px;
 
   @media screen and (min-width: 768px) {
     & {
@@ -293,9 +304,9 @@
   }
 }
 
-.program__list-greed-item:nth-child(2n) {
-  margin-top: 66px;
-}
+// .program__list-greed-item:nth-child(2n) {
+//   margin-top: 66px;
+// }
 
 .program__list-greed-item-wraper {
   padding-bottom: 8px;
