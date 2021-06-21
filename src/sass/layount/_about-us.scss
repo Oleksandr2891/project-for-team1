@@ -8,28 +8,49 @@
   @media screen and (min-width: 768px) {
     text-align: left;
   }
+  @media screen and (min-width: 1280px) {
+    font-size: 36px;
+    line-height: 1.8;
+    padding-top: 67px;
+  }
 }
 .aboutus__text {
   font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.25;
 
-  color: #2e2520;
+  color: var(--color-main);
+  @media screen and (min-width: 1280px) {
+    font-size: 18px;
+    line-height: 1.22;
+  }
 }
-.aboutus__btn-read-more {
+.aboutus__btn-read-more,
+.aboutus__btn-less {
   text-align: start;
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .aboutus__container {
     display: flex;
-    width: 690px;
+    margin-left: 0;
+    padding-left: 11px;
+    @media screen and (min-width: 1280px) {
+      padding-left: 71px;
+    }
   }
   .aboutus__content {
     margin-left: 25px;
     width: 336px;
   }
 }
+
 #more {
   display: none;
+}
+.aboutus__picture {
+  margin-right: 76px;
 }
