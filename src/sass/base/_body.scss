@@ -10,7 +10,7 @@ body {
   background-image: url('../images/header-mobile/webp/pic-donuts.webp'),
     url('../images/bg-mobile/bg-top.svg'), url('../images/contact-mobile/webp/flour.webp'),
     url('../images/bg-mobile/bg-bottom.svg');
-  background-position: 0% 0%, 50% 0%, 100% 100%, 50% 95%;
+  background-position: 0% 0%, 50% 1%, 100% 100%, 50% 88%;
   background-size: 116px 112px, 100% auto, 87px 64px, 100% auto;
   background-repeat: no-repeat;
 }
@@ -49,7 +49,7 @@ body {
     background-image: url('../images/header-tablet/webp/pic-donuts.webp'),
       url('../images/bg-tablet/bg-top.svg'), url('../images/contact-tablet/webp/flour.webp'),
       url('../images/bg-tablet/bg-bottom.svg');
-    background-position: 65% 0%, 50% 0%, 100% 100%, 50% 90%;
+    background-position: 65% 0%, 50% -2%, 100% 100%, 50% 95%;
     background-size: 376px 360px, 100% auto, 148px 140px, 100% auto;
   }
 }
@@ -83,7 +83,7 @@ body {
       url('../images/header-desktop/webp/pic-donuts.webp'), url('../images/bg-desktop/bg-top.svg'),
       url('../images/contact-desktop/webp/flour.webp'), url('../images/bg-desktop/bg-bottom.svg');
 
-    background-position: 0% 165px, 100% 0%, 50% 0%, 100% 100%, 50% 90%;
+    background-position: 0% 165px, 100% 0%, 50% 0%, 100% 100%, 50% 100%;
     background-size: 122px 368px, 650px auto, 100% auto, 320px 190px, 100% auto;
   }
 }
