@@ -47,11 +47,11 @@
   &:invalid:not(:placeholder-shown) {
     border-color: red;
   }
-  &:invalid:not(:placeholder-shown) + .form__error {
+  &:invalid:not(:placeholder-shown) + .form__error--mail {
     display: block;
   }
 }
-.form__error {
+.form__error--mail {
   color: red;
   text-align: left;
   font-size: 12px;
@@ -85,6 +85,9 @@
     font-size: 16px;
     line-height: 20px;
     color: rgba(171, 129, 108, 0.5);
+  }
+  &:focus {
+    overflow: visible;
   }
 }
 .contact-message__position {
