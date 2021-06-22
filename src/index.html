@@ -8,6 +8,8 @@
       href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Montserrat:ital,wght@0,400;0,500;1,500&display=swap"
       rel="stylesheet"
     />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
     <title>Donut Masterclass</title>
     <link
       rel="stylesheet"
@@ -34,39 +36,10 @@
 
     <script src="./index.js"></script>
     <script src="./menu.js"></script>
-    <script>
-      function myFunction() {
-        var dots = document.getElementById('dots');
-        var moreText = document.getElementById('more');
-        var btnText = document.getElementById('myBtn');
-
-        if (dots.style.display === 'none') {
-          dots.style.display = 'inline';
-          btnText.innerHTML = 'Read more';
-          moreText.style.display = 'none';
-        } else {
-          dots.style.display = 'none';
-          btnText.innerHTML = 'Less';
-          moreText.style.display = 'inline';
-        }
-      }
-    </script>
+    <script src="./readmore.js"></script>
+    <!-- <script src="./wow.min.js"></script> -->
     <!-- <script>
-      function myFunction() {
-        var dots = document.getElementById("dotsmore");
-        var moreText = document.getElementById("readmore");
-        var btnText = document.getElementById("morebtn");
-
-        if (dots.style.display === "none") {
-          dots.style.display = "inline";
-          btnText.innerHTML = "Read more";
-          moreText.style.display = "none";
-        } else {
-          dots.style.display = "none";
-          btnText.innerHTML = "Less";
-          moreText.style.display = "inline";
-        }
-      }
+      new WOW().init();
     </script> -->
   </body>
 </html>

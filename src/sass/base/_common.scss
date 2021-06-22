@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -59,4 +60,21 @@ img {
   color: #ab816c;
   background-color: transparent;
   border: none;
+  cursor: pointer;
+}
+
+.text.is-hidden {
+  display: none;
+  @media screen and (min-width: 1280px) {
+    display: block;
+  }
+}
+
+.text {
+  @media screen and (max-width: 1279px) {
+    padding-top: 10px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 21px;
+  }
 }

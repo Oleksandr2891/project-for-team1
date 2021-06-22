@@ -146,6 +146,7 @@
   color: var(--color-main);
 
   @media screen and (min-width: 768px) {
+    // padding: 54px 0px 30px 35px;
     max-width: 180px;
     margin-top: 54px;
     margin-bottom: 34px;
@@ -197,14 +198,13 @@
   &::before {
     content: '';
     display: block;
-    max-width: 265px;
+    width: 265px;
     margin: 0 auto;
-    border-bottom: 1px solid rgba(171, 129, 108, 0.5);
+    border-right: 1px solid rgba(171, 129, 108, 0.5);
     margin-bottom: 11px;
     @media screen and (min-width: 768px) {
+      // display: none;
       position: absolute;
-      border-bottom: none;
-      border-right: 1px solid rgba(171, 129, 108, 0.5);
       width: 0;
       height: 190px;
       margin: 35px 30px 35px 0;
@@ -213,10 +213,8 @@
 }
 
 .reg-form--orientation {
-  @media screen and (min-width: 767px) {
-    padding: 54px 30px;
-    width: 290px;
-  }
+  padding: 54px 30px;
+  width: 290px;
   @media screen and (min-width: 1280px) {
     width: 320px;
   }
