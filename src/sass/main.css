@@ -219,6 +219,13 @@ body {
   fill: var(--color-main);
 }
 
+<<<<<<< Updated upstream
+.social-icon__twitter:hover {
+  fill: var(--color-accent-brown);
+}
+
+=======
+>>>>>>> Stashed changes
 @media screen and (min-width: 1280px) {
   .social-icon__twitter {
     width: 24px;
@@ -232,6 +239,13 @@ body {
   fill: var(--color-main);
 }
 
+<<<<<<< Updated upstream
+.social-icon__instagram:hover {
+  fill: var(--color-accent-brown);
+}
+
+=======
+>>>>>>> Stashed changes
 @media screen and (min-width: 1280px) {
   .social-icon__instagram {
     width: 24px;
@@ -245,6 +259,13 @@ body {
   fill: var(--color-main);
 }
 
+<<<<<<< Updated upstream
+.social-icon__facebook:hover {
+  fill: var(--color-accent-brown);
+}
+
+=======
+>>>>>>> Stashed changes
 @media screen and (min-width: 1280px) {
   .social-icon__facebook {
     width: 24px;
@@ -400,15 +421,38 @@ body {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .aboutus__title {
+    font-size: 36px;
+    line-height: 1.8;
+    padding-top: 67px;
+  }
+}
+
 .aboutus__text {
   font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.25;
-  color: #2e2520;
+  color: var(--color-main);
 }
 
-.aboutus__btn-read-more {
+@media screen and (min-width: 1280px) {
+  .aboutus__text {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}
+
+.aboutus__btn-read-more,
+.aboutus__btn-less {
   text-align: start;
+}
+
+@media screen and (min-width: 1280px) {
+  .aboutus__btn-read-more,
+  .aboutus__btn-less {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -416,12 +460,30 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 690px;
+    margin-left: 0;
+    padding-left: 11px;
   }
+}
+
+@media screen and (min-width: 768px) and (min-width: 1280px) {
+  .aboutus__container {
+    padding-left: 71px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .aboutus__content {
     margin-left: 25px;
     width: 336px;
   }
+}
+
+#more {
+  display: none;
+}
+
+.aboutus__picture {
+  margin-right: 76px;
 }
 
 .contact {
@@ -986,16 +1048,131 @@ body {
   height: 16px;
 }
 
+.list__marker {
+  list-style-image: url(../images/listmaker.png);
+}
+
 .registration {
   padding-top: 15px;
 }
 
+@media screen and (min-width: 768px) {
+  .registration__wrapper--orientation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 10;
+    -webkit-box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+            box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
+    border-radius: 150px 150px 150px 150px;
+    background-color: #fffff9;
+    height: 260px;
+    width: 634px;
+    margin: 0 auto;
+  }
+  .registration__wrapper--orientation:after {
+    content: '';
+    position: absolute;
+    z-index: -5;
+    bottom: -120px;
+    right: -16px;
+    width: 280px;
+    height: 390px;
+    background-image: url("../images/registration-tablet/png/confetti.png");
+    background-image: url("../images/registration-tablet/webp/confetti.webp");
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 768px) {
+  .registration__wrapper--orientation:after {
+    background-image: url("../images/registration-tablet/png/confetti@2x.png");
+    background-image: url("../images/registration-tablet/webp/confetti@2x.webp");
+    background-size: 280px auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-width: 1280px) {
+  .registration__wrapper--orientation:after {
+    background-image: url("../images/registration-desktop/png/confetti.png");
+    background-image: url("../images/registration-desktop/webp/confetti.webp");
+    background-size: 494px auto;
+    height: 462px;
+    width: 416px;
+    bottom: -148px;
+    right: 105px;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 1280px), screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 1280px) {
+  .registration__wrapper--orientation:after {
+    background-image: url("../images/registration-desktop/png/confetti@2x.png");
+    background-image: url("../images/registration-desktop/webp/confetti@2x.webp");
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .registration__wrapper--orientation:before {
+    content: '';
+    position: absolute;
+    z-index: -5;
+    top: 14px;
+    left: -8px;
+    width: 196px;
+    height: 200px;
+    background-image: url("../images/registration-tablet/png/donut.png");
+    background-image: url("../images/registration-tablet/webp/donut.webp");
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 768px) {
+  .registration__wrapper--orientation:before {
+    background-image: url("../images/registration-tablet/png/donut@2x.png");
+    background-image: url("../images/registration-tablet/webp/donut@2x.webp");
+    background-size: 233px auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-width: 1280px) {
+  .registration__wrapper--orientation:before {
+    background-image: url("../images/registration-desktop/png/donut.png");
+    background-image: url("../images/registration-desktop/webp/donut.webp");
+    background-size: 282px auto;
+    left: 38px;
+    top: 14px;
+    width: 234px;
+    height: 258px;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 1280px), screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 1280px) {
+  .registration__wrapper--orientation:before {
+    background-image: url("../images/registration-desktop/png/donut@2x.png");
+    background-image: url("../images/registration-desktop/webp/donut@2x.webp");
+    background-size: 282px auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .registration__wrapper--orientation {
+    width: 822px;
+  }
+}
+
 .registration__wrapper {
+  position: relative;
   -webkit-box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
           box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
   border-radius: 150px 150px 0px 0px;
   padding-bottom: 63px;
   background-color: #fffff9;
+}
+
+@media screen and (min-width: 768px) {
+  .registration__wrapper {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background-color: transparent;
+  }
 }
 
 .registration__title {
@@ -1033,6 +1210,25 @@ body {
   color: var(--color-main);
 }
 
+@media screen and (min-width: 768px) {
+  .registration__place {
+    max-width: 180px;
+    margin-top: 54px;
+    margin-bottom: 34px;
+    margin-left: 35px;
+    margin-right: 30px;
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .registration__place {
+    margin-left: 107px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
 .registration__cost {
   display: block;
   margin: 0 auto 20px auto;
@@ -1045,10 +1241,39 @@ body {
   color: var(--color-main);
 }
 
+@media screen and (min-width: 768px) {
+  .registration__cost {
+    text-align: right;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .registration__cost {
+    font-size: 20px;
+    line-height: 1.2;
+    max-width: 188px;
+  }
+}
+
 .registration__form {
   text-align: center;
   padding-left: 12px;
   padding-right: 13px;
+<<<<<<< Updated upstream
+}
+
+@media screen and (min-width: 768px) {
+  .registration__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+  }
+=======
+>>>>>>> Stashed changes
 }
 
 .registration__form::before {
@@ -1056,8 +1281,28 @@ body {
   display: block;
   width: 265px;
   margin: 0 auto;
-  border: 1px solid rgba(171, 129, 108, 0.5);
+  border-right: 1px solid rgba(171, 129, 108, 0.5);
   margin-bottom: 11px;
+}
+
+@media screen and (min-width: 768px) {
+  .registration__form::before {
+    position: absolute;
+    width: 0;
+    height: 190px;
+    margin: 35px 30px 35px 0;
+  }
+}
+
+.reg-form--orientation {
+  padding: 54px 30px;
+  width: 290px;
+}
+
+@media screen and (min-width: 1280px) {
+  .reg-form--orientation {
+    width: 320px;
+  }
 }
 
 .reg-form__description {
@@ -1067,6 +1312,19 @@ body {
   line-height: 20px;
   text-align: center;
   color: var(--color-main);
+}
+
+@media screen and (min-width: 768px) {
+  .reg-form__description {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reg-form__description {
+    font-size: 18px;
+    line-height: 1.22;
+  }
 }
 
 .reg-form__input {
@@ -1096,6 +1354,26 @@ body {
   color: rgba(171, 129, 108, 0.5);
 }
 
+@media screen and (min-width: 768px) {
+  .reg-form__input {
+    margin: 0 auto 15px auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reg-form__input:last-child {
+    margin: 0px auto 0px auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .reviews__wrapper {
   text-align: center;
   padding-top: 20px;
@@ -1109,6 +1387,10 @@ body {
   text-align: center;
   color: var(--color-main);
   margin-bottom: 14px;
+}
+
+.reviews__item_will {
+  margin-top: 23px;
 }
 
 .reviews__img {
@@ -1137,5 +1419,19 @@ body {
 .reviews__item_elisabeth,
 .reviews__item_john {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews__item_elisabeth,
+  .reviews__item_john {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews__description_john,
+  .reviews__description_elisabeth {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -13,9 +13,9 @@
         <form class="registration__form reg-form" action="#">
           <div class="reg-form--orientation">
             <p class="reg-form__description">Apply your personal info for registration</p>
-            <input class="reg-form__input" type="text" name="user-name" placeholder="Your name" />
-            <input class="reg-form__input" type="tel" name="user-tel" placeholder="Phone number" />
-            <input class="reg-form__input" type="email" name="user-mail" placeholder="Email" />
+            <input class="reg-form__input" type="text" name="user-name" placeholder="Your name" required minlength="2"/>
+            <input class="reg-form__input" type="tel" name="user-tel" placeholder="Phone number" required/>
+            <input class="reg-form__input" type="email" name="user-mail" placeholder="Email" required/>
           </div>
           <button class="button" type="submit">Register</button>
         </form>
