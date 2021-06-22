@@ -249,8 +249,22 @@
   color: var(--color-main);
   border: none;
   border-bottom: 1px solid rgba(171, 129, 108, 0.5);
+  background-color: transparent;
+  outline: none;
   &::placeholder {
     color: rgba(171, 129, 108, 0.5);
+  }
+  &:valid:not(:placeholder-shown) {
+    border-color: green;
+  }
+  &:invalid:not(:placeholder-shown) {
+    border-color: red;
+  }
+  &:invalid:not(:placeholder-shown) + .reg__error--mail {
+    display: block;
+  }
+  &:invalid:not(:placeholder-shown) + .reg__error--tel {
+    display: block;
   }
 
   @media screen and (min-width: 768px) {
@@ -261,4 +275,13 @@
       margin: 0px auto 0px auto;
     }
   }
+}
+.reg__error--mail,
+.reg__error--tel {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
 }
