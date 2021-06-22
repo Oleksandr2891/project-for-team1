@@ -3,7 +3,7 @@ $(document).ready(function(){
         asNavFor: ".reviews__content-slider",
         slidesToShow: 3,
         centerMode: true,
-        centerPadding: '40px',
+        centerPadding: '20px',
         responsive: [{
             breakpoint: 767,
             settings: {
