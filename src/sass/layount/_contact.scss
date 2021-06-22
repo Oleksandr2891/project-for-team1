@@ -128,7 +128,13 @@
 
     color: var(--color-main);
   }
+  &__link:hover{
+    color: var(--color-accent-brown);
+  }
   &__icon {
     margin-right: 3px;
+  }
+  &__link:hover &__icon{
+    fill:var(--color-accent-brown) ;
   }
 }
