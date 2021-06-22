@@ -1,3 +1,8 @@
+@media screen and (min-width: 768px) {
+  .reviews__list {
+    display: flex;
+  }
+}
 .reviews__wrapper {
   text-align: center;
   // padding-top: 20px;
@@ -12,6 +17,9 @@
   color: var(--color-main);
 
   margin-bottom: 14px;
+}
+.reviews__item_will {
+  margin-top: 23px;
 }
 .reviews__img {
   display: block;
@@ -41,4 +49,14 @@
 .reviews__item_elisabeth,
 .reviews__item_john {
   display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
+.reviews__description_john,
+.reviews__description_elisabeth {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
