@@ -1,6 +1,7 @@
 @media screen and (max-width: 1279.98px) {
   .menu-mobile {
     position: fixed;
+    z-index: 10;
     top: 0;
     left: 0;
     width: 100vw;
@@ -54,6 +55,11 @@
     transform: translateY(0%);
   }
 }
+
+// body .is-open {
+//   overflow: hidden;
+//   position: fixed;
+// }
 
 @media screen and (min-width: 1280px) {
   .menu-mobile {
