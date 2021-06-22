@@ -69,11 +69,11 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .program__list-item:last-child {
-    margin-bottom: 21px;
-  }
-}
+// @media screen and (min-width: 1280px) {
+//   .program__list {
+//     margin-bottom: 21px;
+//   }
+// }
 
 @media screen and (max-width: 767px) {
   .program__btn-read-more {
@@ -87,7 +87,7 @@
   }
 }
 
-.program__text-read-more {
+.text {
   max-width: 290px;
   @media screen and (min-width: 768px) {
     max-width: 298px;
