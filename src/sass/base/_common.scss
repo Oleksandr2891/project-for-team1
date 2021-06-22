@@ -61,6 +61,13 @@ img {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  &:hover,
+  &:focus {
+    color: #876655;
+  }
+  &:active {
+    color: #674d40;
+  }
 }
 
 .text.is-hidden {
