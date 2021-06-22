@@ -128,13 +128,21 @@
 
     color: var(--color-main);
   }
-  &__link:hover{
+  &__link:hover {
     color: var(--color-accent-brown);
   }
   &__icon {
     margin-right: 3px;
   }
-  &__link:hover &__icon{
-    fill:var(--color-accent-brown) ;
+  &__link:hover &__icon {
+    fill: var(--color-accent-brown);
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 0 67px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 0 230px;
   }
 }
