@@ -30,23 +30,18 @@
 
 .program__container {
   @media screen and (max-width: 767px) {
-    // padding-left: 30px;
-    // padding-right: 30px;
   }
   @media screen and (min-width: 768px) {
     display: flex;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
     justify-content: space-between;
-    // padding-left: 20px;
-    // padding-right: 20px;
+
     max-width: 635px;
   }
   @media screen and (min-width: 1280px) {
     justify-content: space-between;
     max-width: 824px;
-    // padding-left: 20px;
-    // padding-right: 20px;
   }
 }
 
