@@ -219,10 +219,13 @@ body {
   fill: var(--color-main);
 }
 
+<<<<<<< Updated upstream
 .social-icon__twitter:hover {
   fill: var(--color-accent-brown);
 }
 
+=======
+>>>>>>> Stashed changes
 @media screen and (min-width: 1280px) {
   .social-icon__twitter {
     width: 24px;
@@ -236,10 +239,13 @@ body {
   fill: var(--color-main);
 }
 
+<<<<<<< Updated upstream
 .social-icon__instagram:hover {
   fill: var(--color-accent-brown);
 }
 
+=======
+>>>>>>> Stashed changes
 @media screen and (min-width: 1280px) {
   .social-icon__instagram {
     width: 24px;
@@ -253,10 +259,13 @@ body {
   fill: var(--color-main);
 }
 
+<<<<<<< Updated upstream
 .social-icon__facebook:hover {
   fill: var(--color-accent-brown);
 }
 
+=======
+>>>>>>> Stashed changes
 @media screen and (min-width: 1280px) {
   .social-icon__facebook {
     width: 24px;
@@ -1250,6 +1259,7 @@ body {
   text-align: center;
   padding-left: 12px;
   padding-right: 13px;
+<<<<<<< Updated upstream
 }
 
 @media screen and (min-width: 768px) {
@@ -1262,6 +1272,8 @@ body {
             align-items: center;
     padding: 0;
   }
+=======
+>>>>>>> Stashed changes
 }
 
 .registration__form::before {
