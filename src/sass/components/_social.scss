@@ -2,9 +2,9 @@
   width: 19px;
   height: 15px;
   fill: var(--color-main);
-  // &:hover {
-  //   fill: var(--color-accent-brown);
-  // }
+  &:hover {
+    fill: var(--color-accent-brown);
+  }
 
   @media screen and (min-width: 1280px) {
     width: 24px;
@@ -16,9 +16,9 @@
   width: 15px;
   height: 15px;
   fill: var(--color-main);
-  // &:hover {
-  //   fill: var(--color-accent-brown);
-  // }
+  &:hover {
+    fill: var(--color-accent-brown);
+  }
 
   @media screen and (min-width: 1280px) {
     width: 24px;
@@ -30,9 +30,9 @@
   width: 8px;
   height: 15px;
   fill: var(--color-main);
-  // &:hover {
-  //   fill: var(--color-accent-brown);
-  // }
+  &:hover {
+    fill: var(--color-accent-brown);
+  }
 
   @media screen and (min-width: 1280px) {
     width: 24px;
