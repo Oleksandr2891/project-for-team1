@@ -36,21 +36,33 @@
 @media screen and (min-width: 768px) {
   .aboutus__container {
     display: flex;
-    margin-left: 0;
-    padding-left: 11px;
+    position: relative;
+    justify-content: flex-end;
+    max-width: 635px;
+
     @media screen and (min-width: 1280px) {
       padding-left: 71px;
+      max-width: 824px;
     }
   }
   .aboutus__content {
-    margin-left: 25px;
-    width: 336px;
+    max-width: 336px;
+    min-height: 358px;
+
+    @media screen and (min-width: 1280px) {
+      max-width: 392px;
+      min-height: 546px;
+    }
   }
 }
 
-// #more {
-//   display: none;
-// }
 .aboutus__picture {
-  margin-right: 76px;
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    top: 0;
+    left: -54px;
+  }
+  @media screen and (min-width: 1280px) {
+    left: -154px;
+  }
 }
