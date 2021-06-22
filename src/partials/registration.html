@@ -26,10 +26,11 @@
               type="tel"
               name="user-tel"
               placeholder="Phone number"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
               required
             />
             <span class="reg__error--tel">
-              Это поле должно содержать телефон в формате +38 (096) 456-78-90</span
+              This field should contain a phone number in the format +38 (096) 456-78-90</span
             >
 
             <input
@@ -40,7 +41,7 @@
               required
             />
             <span class="reg__error--mail"
-              >Это поле должно содержать E-Mail в формате example@site.com</span
+              >This field should contain E-Mail in the format example@site.com</span
             >
           </div>
           <button class="button" type="submit">Register</button>
