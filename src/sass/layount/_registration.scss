@@ -1,5 +1,6 @@
 .registration {
   padding-top: 15px;
+  padding-bottom: 45px;
 }
 
 @media screen and (min-width: 768px) {
@@ -57,7 +58,7 @@
       top: 14px;
       left: -8px;
       width: 196px;
-      height: 200px;
+      height: 212px;
       background-image: url('../images/registration-tablet/png/donut.png');
       background-image: url('../images/registration-tablet/webp/donut.webp');
 
@@ -100,12 +101,15 @@
   position: relative;
   box-shadow: -4px -4px 4px rgba(171, 129, 108, 0.15), 4px 4px 4px rgba(171, 129, 108, 0.15);
   border-radius: 150px 150px 0px 0px;
-  padding-bottom: 63px;
+
   background-color: #fffff9;
+  padding-top: 15px;
+  padding-bottom: 34px;
 
   @media screen and (min-width: 768px) {
     box-shadow: none;
     background-color: transparent;
+    padding-bottom: 63px;
   }
 }
 .registration__title {
@@ -202,23 +206,22 @@
     border-bottom: 1px solid rgba(171, 129, 108, 0.5);
     margin-bottom: 11px;
     @media screen and (min-width: 768px) {
-      position: absolute;
-      border-bottom: none;
       border-right: 1px solid rgba(171, 129, 108, 0.5);
+      position: absolute;
       width: 0;
       height: 190px;
-      margin: 35px 30px 35px 0;
     }
   }
 }
 
 .reg-form--orientation {
-  @media screen and (min-width: 767px) {
-    padding: 54px 30px;
-    width: 290px;
+  max-width: 290px;
+
+  @media screen and (min-width: 768px) {
+    padding: 0 30px;
   }
   @media screen and (min-width: 1280px) {
-    width: 320px;
+    min-width: 320px;
   }
 }
 
@@ -249,8 +252,22 @@
   color: var(--color-main);
   border: none;
   border-bottom: 1px solid rgba(171, 129, 108, 0.5);
+  background-color: transparent;
+  outline: none;
   &::placeholder {
     color: rgba(171, 129, 108, 0.5);
+  }
+  &:valid:not(:placeholder-shown) {
+    border-color: green;
+  }
+  &:invalid:not(:placeholder-shown) {
+    border-color: red;
+  }
+  &:invalid:not(:placeholder-shown) + .reg__error--mail {
+    display: block;
+  }
+  &:invalid:not(:placeholder-shown) + .reg__error--tel {
+    display: block;
   }
 
   @media screen and (min-width: 768px) {
@@ -261,4 +278,13 @@
       margin: 0px auto 0px auto;
     }
   }
+}
+.reg__error--mail,
+.reg__error--tel {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
 }
