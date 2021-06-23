@@ -24,8 +24,9 @@
   text-align: center;
 
   color: var(--color-main);
-
-  margin-bottom: 14px;
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 5px;
+  }
 }
 .reviews__item_will {
   margin-top: 23px;
