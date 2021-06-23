@@ -1,6 +1,13 @@
 .registration {
-  padding-top: 15px;
   padding-bottom: 45px;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 51px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-bottom: 77px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -20,7 +27,7 @@
       position: absolute;
       z-index: -5;
       bottom: -120px;
-      right: -16px;
+      right: -63px;
       width: 280px;
       height: 390px;
       background-image: url('../images/registration-tablet/png/confetti.png');
@@ -40,8 +47,8 @@
         background-size: 494px auto;
         height: 462px;
         width: 416px;
-        bottom: -148px;
-        right: 105px;
+        bottom: -200px;
+        right: -110px;
       }
 
       @media (min-device-pixel-ratio: 2) and (min-width: 1280px),
@@ -55,10 +62,10 @@
       content: '';
       position: absolute;
       z-index: -5;
-      top: 14px;
-      left: -8px;
+      top: 27px;
+      left: -62px;
       width: 196px;
-      height: 212px;
+      height: 228px;
       background-image: url('../images/registration-tablet/png/donut.png');
       background-image: url('../images/registration-tablet/webp/donut.webp');
 
@@ -67,15 +74,15 @@
         (min-resolution: 2dppx) and (min-width: 768px) {
         background-image: url('../images/registration-tablet/png/donut@2x.png');
         background-image: url('../images/registration-tablet/webp/donut@2x.webp');
-        background-size: 233px auto;
+        background-size: 250px auto;
       }
 
       @media screen and (min-width: 1280px) {
         background-image: url('../images/registration-desktop/png/donut.png');
         background-image: url('../images/registration-desktop/webp/donut.webp');
         background-size: 282px auto;
-        left: 38px;
-        top: 14px;
+        left: -168px;
+        top: 55px;
         width: 234px;
         height: 258px;
       }
@@ -104,19 +111,16 @@
 
   background-color: #fffff9;
   padding-top: 15px;
-  padding-bottom: 34px;
 
   @media screen and (min-width: 768px) {
     box-shadow: none;
     background-color: transparent;
-    padding-bottom: 63px;
   }
 }
 .registration__title {
   margin-bottom: 11px;
 
   font-family: var(--title-font);
-  font-size: 24px;
   line-height: 2.71;
   text-align: center;
   color: var(--color-main);
@@ -191,6 +195,7 @@
   text-align: center;
   padding-left: 12px;
   padding-right: 13px;
+  padding-bottom: 47px;
 
   @media screen and (min-width: 768px) {
     display: flex;
