@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -60,6 +61,13 @@ img {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  &:hover,
+  &:focus {
+    color: #876655;
+  }
+  &:active {
+    color: #674d40;
+  }
 }
 
 .text.is-hidden {
@@ -75,5 +83,26 @@ img {
   }
   @media screen and (min-width: 1280px) {
     padding-top: 21px;
+  }
+}
+
+.text {
+  animation-name: animation-read-more;
+  animation-duration: 700ms;
+  animation-timing-function: linear;
+  animation-iteration-count: inifinite;
+  animation-direction: alternate;
+}
+
+@keyframes animation-read-more {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0, 5;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
