@@ -1,53 +1,29 @@
 @media screen and (max-width: 767px) {
   .program__section {
-    //   padding-top: 30px;
     padding-bottom: 25px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .program__section {
-    //   padding-top: 30px;
     padding-bottom: 68px;
   }
 }
-
-// @media screen and (min-width: 768px) {
-//   .program__item {
-// flex-basis: calc((100% - 38px) / 2);
-//     &:not(:last-child) {
-//       margin-right: 38px;
-//     }
-//   }
-// }
 
 .program__left-part {
   @media screen and (min-width: 768px) {
     min-width: 298px;
     margin-right: 38px;
-    // min-height: 382px;
   }
   @media screen and (min-width: 1280px) {
     margin-right: 40px;
-    // min-width: 417px;
   }
 }
 
 .program__container {
-  //   @media screen and (max-width: 767px) {
-  //   }
   @media screen and (min-width: 768px) {
     display: flex;
   }
-  //   @media screen and (min-width: 768px) and (max-width: 1279px) {
-  //     justify-content: space-between;
-
-  //     max-width: 690px;
-  //   }
-  //   @media screen and (min-width: 1280px) {
-  //     justify-content: space-between;
-  //     max-width: 854px;
-  //   }
 }
 
 @media screen and (max-width: 767px) {
@@ -95,12 +71,6 @@
   }
 }
 
-// @media screen and (min-width: 1280px) {
-//   .program__list {
-//     margin-bottom: 21px;
-//   }
-// }
-
 @media screen and (max-width: 767px) {
   .program__left-part {
     margin-bottom: 37px;
@@ -124,11 +94,6 @@
     line-height: 1.2;
   }
 }
-
-// .program__link-read {
-//   display: block;
-
-// }
 
 .program__list-greed {
   display: flex;
@@ -177,12 +142,6 @@
   background-image: url('../images/program-mobile/png/program1.png');
   background-size: contain;
 }
-
-// @media screen and (max-width: 767px) {
-//   .bg-img-donut-black::before {
-
-//   }
-// }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .bg-img-donut-black::before {
@@ -240,12 +199,6 @@
   background-image: url('../images/program-mobile/png/program2.png');
   background-size: contain;
 }
-// @media screen and (max-width: 768px) {
-//   .bg-img-donut-white::before {
-//     background-image: url('../images/program-mobile/png/program2.png');
-//     background-size: contain;
-//   }
-// }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .bg-img-donut-white::before {
@@ -392,13 +345,6 @@
   }
 }
 
-// .program__list-greed-item::before {
-//   content: '';
-//   position: absolute;
-//   min-width: 64px;
-//   min-height: 71px;
-// }
-
 .program__list-greed-item {
   display: flex;
   flex-direction: column;
@@ -427,7 +373,6 @@
 
 .program__list-greed-item:not(:nth-child(2n)) {
   margin-right: 6px;
-  //   margin-bottom: 66px;
 
   @media screen and (min-width: 768px) {
     & {
@@ -440,10 +385,6 @@
     }
   }
 }
-
-// .program__list-greed-item:nth-child(2n) {
-//   margin-top: 66px;
-// }
 
 .program__list-greed-item-wraper {
   padding-bottom: 8px;
